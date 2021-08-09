@@ -1,10 +1,10 @@
-# Trabalho Algoritmos e Programação -- Lista de exercícios
+# Trabalho Algoritmos e Programação - Lista de exercícios
 
 ## Instruções
 
 1. Esta lista possui 10 exercícios. Cada um deles vale a mesma nota. Faça todos para gabaritar a lista!
 2. Para cada exercício, existe um arquivo de código-fonte correspondente no repositório (por exemplo, para a primeira tarefa, existe um arquivo chamado `tarefa_1.c`). Modifique este arquivo de código-fonte para resolver o exercício.
-3. Se estiver com dúvidas sobre a saída de uma das tabelas-verdade, use o WolframAlpha: https://www.wolframalpha.com/input/?i=P+%26%26+Q
+3. Se estiver com dúvidas sobre a saída de uma das tabelas-verdade, use o [WolframAlpha](https://www.wolframalpha.com/input/?i=P+%26%26+Q)
 4. Para quem está em dia com os estudos da linguagem de programação C, esta lista não deve ser difícil. Se perceber que os exercícios estão difíceis demais, revise o conteúdo. Há tempo suficiente para revisar o material de aula, aprender o conteúdo, e realizar a lista.
 5. Esta lista deve ser resolvida individualmente.
 6. O professor elaborou esta lista com exercícios tirados da cabeça dele. Não existe um gabarito na Internet.
@@ -34,8 +34,8 @@ Para usarmos a tabela, vamos dizer que
 
 * `P` significa _hoje faz sol_
 * `Q` significa _sem vento_
-* `~P` significa _hoje não faz sol_
-* `~Q` significa _com vento_
+* `~P` significa _hoje não faz sol_ (na linguagem C seria `!P`)
+* `~Q` significa _com vento_ (na linguagem C seria `!Q`)
 * `P && Q` significa _vou jogar futebol_
 * `&&` significa **E**
 * `||` significa **OU**
@@ -62,7 +62,7 @@ Logo, a tabela-verdade para o exemplo anterior é
 
 ## Exercícios
 
-Agora que você sabe _quase tudo_ sobre tabelas-verdade, transforme as seguintes sentenças para a linguagem de programação C:
+Agora que você sabe _quase tudo_ sobre tabelas-verdade, transforme as seguintes sentenças para a linguagem de programação C, usando instruções `if` e `else`:
 
  0. `P || Q` (resolvido, veja exemplo)
  1. `P && (Q || R)`
