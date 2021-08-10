@@ -59,6 +59,10 @@ Logo, a tabela-verdade para o exemplo anterior é
 * `~(P)` é igual a `~P`
 * A negação do **OU** (`||`) é **E** (`&&`), e a negação de **OU** (`||`) é **E** (`&&`)
   * `~(P && Q) <-> ~P || ~Q`
+* Parênteses têm precedência sobre outras operações. Ou seja, resolva antes o que está entre parêntes, para depois fazer
+  o resto  
+* `&&` tem precedência sobre `||`
+  * Pense no `&&` como uma multiplicação, e o `||` como uma soma
 
 ## Exercícios
 
@@ -66,12 +70,12 @@ Agora que você sabe _quase tudo_ sobre tabelas-verdade, transforme as seguintes
 
  0. `P || Q` (resolvido, veja exemplo)
  1. `P && (Q || R)`
- 2. `P && (Q && R)`
- 3. `P || (Q || R)`
+ 2. `P && Q || R`
+ 3. `(P && Q) && R`
  4. `(P && Q) || (R && S)`
- 5. `~((P && Q) || (R && S))`
- 6. `~P`
- 7. `~(P && Q)`
- 8. `~P || ~Q`
- 9. `~P && P`
-10. `~(P && (Q || R))`
+ 5. `~P`
+ 6. `~(P && Q)`
+ 7. `~P || ~Q`
+ 8. `~P && Q`
+ 9. `~(P && (Q || R))`
+10. `~((P && Q) || (R && S))`

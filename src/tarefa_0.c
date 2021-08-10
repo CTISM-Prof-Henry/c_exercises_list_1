@@ -37,16 +37,19 @@ int main() {
     bool qs[PREMISES_SIZE] = {false, true};
     bool answer[CONSEQUENCE_SIZE] = {false, true, true, true};
 
-    printf("P || Q\n");
+    bool alright = true;
+
+    printf("Tarefa 0: P || Q\n");
     for(int i = 0; i < PREMISES_SIZE; i++) {
         for(int j = 0; j < PREMISES_SIZE; j++) {
             if(tarefa_0_exemplo_1(ps[i], qs[j]) == answer[i * PREMISES_SIZE + j]) {
-                printf("  Correto: ");
+                printf("    Correto: ");
             } else {
-                printf("Incorreto: ");
+                printf("  Incorreto: ");
+                alright = false;
             }
             printf("%d || %d = %d\n", ps[i], qs[j], answer[i * PREMISES_SIZE + j]);
         }
     }
-    return 0;
+    return !alright;
 }

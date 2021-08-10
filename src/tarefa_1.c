@@ -6,7 +6,9 @@
 
 
 bool tarefa_1(bool p, bool q, bool r) {
+    // TODO desenvolva aqui seu código
     return false;
+    // TODO desenvolva aqui seu código
 }
 
 
@@ -21,14 +23,17 @@ int main() {
     bool rs[PREMISES_SIZE] = {false, true};
     bool answer[CONSEQUENCE_SIZE] = {false, false, false, false, false, true, true, true};
 
-    printf("P && (Q || R)\n");
+    bool alright = true;
+
+    printf("Tarefa 1: P && (Q || R)\n");
     for(int i = 0; i < PREMISES_SIZE; i++) {
         for(int j = 0; j < PREMISES_SIZE; j++) {
             for(int k = 0; k < PREMISES_SIZE; k++) {
                 if(tarefa_1(ps[i], qs[j], rs[k]) == answer[i * PREMISES_SIZE * PREMISES_SIZE + j * PREMISES_SIZE + k]) {
-                    printf("  Correto: ");
+                    printf("    Correto: ");
                 } else {
-                    printf("Incorreto: ");
+                    printf("  Incorreto: ");
+                    alright = false;
                 }
                 printf(
             "%d && (%d || %d) = %d\n",
@@ -37,5 +42,5 @@ int main() {
             }
         }
     }
-    return 0;
+    return !alright;
 }
