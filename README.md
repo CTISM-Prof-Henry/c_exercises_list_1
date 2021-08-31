@@ -6,9 +6,8 @@
 2. Para cada exercício, existe um arquivo de código-fonte correspondente no repositório (por exemplo, para a primeira tarefa, existe um arquivo chamado `tarefa_1.c`). Modifique este arquivo de código-fonte para resolver o exercício.
 3. Se estiver com dúvidas sobre a saída de uma das tabelas-verdade, use o [WolframAlpha](https://www.wolframalpha.com/input/?i=P+%26%26+Q)
 4. Para quem está em dia com os estudos da linguagem de programação C, esta lista não deve ser difícil. Se perceber que os exercícios estão difíceis demais, revise o conteúdo. Há tempo suficiente para revisar o material de aula, aprender o conteúdo, e realizar a lista.
-5. Esta lista deve ser resolvida individualmente.
-6. O professor elaborou esta lista com exercícios tirados da cabeça dele. Não existe um gabarito na Internet.
-7. Você pode discutir os exercícios com seus colegas, porém evite copiar as resoluções. Se você copiar o trabalho do coleguinha e der o azar do professor descobrir, será zero para o exercício dos dois alunos: quem copiou, e quem deixou copiar.
+5. O professor elaborou esta lista com exercícios tirados da cabeça dele. Não existe um gabarito na Internet.
+6. Você pode discutir os exercícios com seus colegas, porém evite copiar as resoluções. Se você copiar o trabalho do coleguinha e der o azar do professor descobrir, será zero para o exercício dos dois alunos: quem copiou, e quem deixou copiar.
 
 ## Introdução
 
