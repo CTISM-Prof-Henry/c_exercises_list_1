@@ -56,7 +56,7 @@ Logo, a tabela-verdade para o exemplo anterior é
 
 * `~P` é a negação de `P` (ou seja, se `P` é verdadeiro, `~P` é falso)
 * `~(P)` é igual a `~P`
-* A negação do **OU** (`||`) é **E** (`&&`), e a negação de **OU** (`||`) é **E** (`&&`)
+* A negação do **OU** (`||`) é **E** (`&&`), e a negação de **E** (`&&`) é **OU** (`||`)
   * `~(P && Q) <-> ~P || ~Q`
 * Parênteses têm precedência sobre outras operações. Ou seja, resolva antes o que está entre parêntes, para depois fazer
   o resto  
