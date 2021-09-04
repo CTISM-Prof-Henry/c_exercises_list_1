@@ -36,7 +36,7 @@ int main() {
         for(int j = 0; j < PREMISES_SIZE; j++) {
             for(int k = 0; k < PREMISES_SIZE; k++) {
                 for(int l = 0; l < PREMISES_SIZE; l++) {
-                    if(tarefa_4(ps[i], qs[j], rs[k], ss[k]) == answer[
+                    if(tarefa_4(ps[i], qs[j], rs[k], ss[l]) == answer[
                             i * PREMISES_SIZE * PREMISES_SIZE * PREMISES_SIZE +
                             j * PREMISES_SIZE * PREMISES_SIZE +
                             k * PREMISES_SIZE +
