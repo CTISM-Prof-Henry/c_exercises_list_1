@@ -14,5 +14,3 @@ add_executable(tarefa_7 src/tarefa_7.c)
 add_executable(tarefa_8 src/tarefa_8.c)
 add_executable(tarefa_9 src/tarefa_9.c)
 add_executable(tarefa_10 src/tarefa_10.c)
-
-add_executable(tarefas src/tarefas.c src/tarefas.h)
